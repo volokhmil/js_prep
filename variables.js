@@ -37,13 +37,13 @@ undefined.
 • Symbol - Унікальні ідентифікатори, які гарантують унікальність.Використовуються, наприклад, як ключі для об'єктів. let id = Symbol("uniqueID");
 */
 
-// const obj = {
-//     name: 'Volodymyr',
-//     age: 14,
-//     isMarried: true
-// }
+const obj = {
+    name: 'Volodymyr',
+    age: 14,
+    isMarried: true
+}
 
-// console.log(obj.isMarried)
+console.log(obj.isMarried)
 if(3 > 5){
     res = 'hey'
 }
